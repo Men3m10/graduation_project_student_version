@@ -1,0 +1,159 @@
+ //   /*{this.state.items.map((item, index) => (
+              //     <View>
+              //       <View style={styles.box1}>
+              //         <Text
+              //           numberOfLines={1}
+              //           style={{
+              //             alignSelf: 'center',
+              //             fontSize: 12,
+              //             fontWeight: '600',
+              //           }}>
+              //           {item.subjectName}
+              //         </Text>
+              //       </View>
+              //       <View key={index} style={styles.box}>
+              //         <View
+              //           style={{
+              //             width: '60%',
+              //             alignSelf: 'center',
+              //             borderBottomWidth: 1,
+              //             borderBottomColor: '#EEE',
+              //           }}
+              //         />
+              //         {/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */}
+              //         <View
+              //           style={{
+              //             width: '100%',
+              //             height: '100%',
+              //             justifyContent: 'center',
+              //           }}>
+              //           <View
+              //             style={{
+              //               width: '80%',
+              //               height: 30,
+              //               // backgroundColor: "#F00",
+              //               flexDirection: 'row',
+              //               justifyContent: 'space-between',
+              //               marginBottom: 10,
+              //               alignSelf: 'center',
+              //             }}>
+              //             <View
+              //               style={{
+              //                 justifyContent: 'center',
+              //               }}>
+              //               <Text style={{fontSize: 15, fontWeight: '600'}}>
+              //                 Code
+              //               </Text>
+              //             </View>
+              //             <View
+              //               style={{
+              //                 justifyContent: 'center',
+              //                 width: '20%',
+              //               }}>
+              //               <Text style={{fontSize: 15, alignSelf: 'center'}}>
+              //                 {item.subjectCode}
+              //               </Text>
+              //             </View>
+              //           </View>
+
+              //           <View
+              //             style={{
+              //               width: '80%',
+              //               height: 30,
+              //               // backgroundColor: "#F00",
+              //               flexDirection: 'row',
+              //               justifyContent: 'space-between',
+              //               marginBottom: 10,
+              //               alignSelf: 'center',
+              //             }}>
+              //             <View style={{justifyContent: 'center'}}>
+              //               <Text style={{ffontSize: 15, fontWeight: '600'}}>
+              //                 number of sections
+              //               </Text>
+              //             </View>
+              //             <View
+              //               style={{justifyContent: 'center', width: '20%'}}>
+              //               <Text style={{fontSize: 15, alignSelf: 'center'}}>
+              //                 {item.maxHours}
+              //               </Text>
+              //             </View>
+              //           </View>
+
+              //           <View
+              //             style={{
+              //               width: '80%',
+              //               height: 30,
+              //               // backgroundColor: "#F00",
+              //               flexDirection: 'row',
+              //               justifyContent: 'space-between',
+              //               marginBottom: 10,
+              //               alignSelf: 'center',
+              //             }}>
+              //             <View style={{justifyContent: 'center'}}>
+              //               <Text style={{fontSize: 15, fontWeight: '600'}}>
+              //                 Absent Section number
+              //               </Text>
+              //             </View>
+              //             <View
+              //               style={{justifyContent: 'center', width: '20%'}}>
+              //               <Text style={{fontSize: 15, alignSelf: 'center'}}>
+              //                 {item.absentHours}
+              //               </Text>
+              //             </View>
+              //           </View>
+
+              //           <View
+              //             style={{
+              //               width: '80%',
+              //               height: 30,
+              //               // backgroundColor: "#F00",
+              //               flexDirection: 'row',
+              //               justifyContent: 'space-between',
+              //               marginBottom: 10,
+              //               alignSelf: 'center',
+              //             }}>
+              //             <View style={{justifyContent: 'center'}}>
+              //               <Text style={{fontSize: 15, fontWeight: '600'}}>
+              //                 Sections by instructor
+              //               </Text>
+              //             </View>
+              //             <View
+              //               style={{justifyContent: 'center', width: '20%'}}>
+              //               <Text style={{fontSize: 15, alignSelf: 'center'}}>
+              //                 {item.totalLecturesByinstructor}
+              //               </Text>
+              //             </View>
+              //           </View>
+
+              //           <View
+              //             style={{
+              //               width: '80%',
+              //               height: 30,
+              //               // backgroundColor: "#F00",
+              //               flexDirection: 'row',
+              //               justifyContent: 'space-between',
+              //               marginBottom: 10,
+              //               alignSelf: 'center',
+              //             }}>
+              //             <View style={{justifyContent: 'center'}}>
+              //               <Text style={{fontSize: 15, fontWeight: '600'}}>
+              //                 {' '}
+              //                 Attendence Percentage
+              //               </Text>
+              //             </View>
+              //             <View
+              //               style={{justifyContent: 'center', width: '15%'}}>
+              //               <Text
+              //                 style={{
+              //                   fontSize: 15,
+              //                   alignSelf: 'center',
+              //                   fontWeight: 'bold',
+              //                 }}>
+              //                 {item.attendence}
+              //               </Text>
+              //             </View>
+              //           </View>
+              //         </View>
+              //       </View>
+              //     </View>
+              //   ))}
